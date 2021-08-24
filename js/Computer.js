@@ -21,14 +21,14 @@ class Computer {
    push();
   fill("white");
   textSize(20);
-  text("Computer", 1100, 40);
+  text("Computer", this.body.x, this.body.y-60);
 
   fill(this.life1);
-  rect(1140, 50, 70, 30);
+  rect(this.body.x, this.body.y-50, 70, 30);
   fill(this.life2);
-  rect(1070, 50, 70, 30);
+  rect(this.body.x+70, this.body.y-50, 70, 30);
   fill(this.life3);
-  rect(1000, 50, 70, 30);
+  rect(this.body.x-70, this.body.y-50, 70, 30);
    pop();
  }
   
