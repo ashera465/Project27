@@ -24,11 +24,11 @@ class Computer {
   text("Computer", 1630, 40);
 
   fill(this.life1);
-  rect(1530, 50, 70, 30);
+  rect(windowWidth-400, 50, 70, 30);
   fill(this.life2);
-  rect(1600, 50, 70, 30);
+  rect(windowWidth-330, 50, 70, 30);
   fill(this.life3);
-  rect(1670, 50, 70, 30);
+  rect(windowWidth-260, 50, 70, 30);
    pop();
  }
   
